@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+		<!-- The above 4 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+		<!-- Title -->
+		<title>Servale - Profile</title>
+
+		<!-- Favicon -->
+		<link rel="icon" href="img/core-img/favicon.ico" />
+
+		<!-- Core Stylesheet -->
+		<link href="style.css" rel="stylesheet" />
+
+		<!-- FontAwesome -->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+
+		<!-- Responsive CSS -->
+		<link href="css/responsive/responsive.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<!-- ***** Header Area Start ***** -->
+		<header class="header_area" id="header">
+			<div class="container-fluid h-100">
+				<div class="row h-100">
+					<div class="col-12 h-100">
+						<nav class="h-100 navbar navbar-expand-lg">
+							<a class="navbar-brand" href="index.html">SerVale</a>
+							<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#workBookNav" aria-controls="workBookNav" aria-expanded="false" aria-label="Toggle navigation">
+								<span class="fa fa-bars"></span>
+							</button>
+							<!-- Nav -->
+							<div class="collapse navbar-collapse" id="workBookNav">
+								<ul class="navbar-nav mr-auto" id="workBookMenu">
+									<li class="nav-item">
+										<a class="nav-link" href="index.html">Home </a>
+									</li>
+								</ul>
+								<!-- User Profile btn -->
+								<div class="workBook-user-logout-btn">
+									<a href="#" class="btn workBook-btn btn-shadow log-reg-btn"><i class="fas fa-power-off pr-2"></i>Logout</a>
+								</div>
+							</div>
+						</nav>
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- ***** Header Area End ***** -->
+
+		<!-- ***** BreadCrumb Area Start ***** -->
+		<div class="breadCrumb-area bg-img bg-overlay" style="background-image: url(img/bg-img/service-bg.jpg)"></div>
+		<!-- ***** BreadCrumb Area End ***** -->
+
+		<!-- Modal Form Start-->
+		<div class="modal fade" id="modalCandidate" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+			<div class="modal-dialog modal-dialog-centered" role="document">
+				<div class="modal-content">
+					<div class="modal-header p-2 px-3 align-items-center">
+						<h6 class="modal-title" id="modalTitle">Applied Candidates</h6>
+						<button type="button" class="close p-2 px-3" data-dismiss="modal" aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body py-0">
+						<div class="row my-1">
+							<div class="col-12 p-0">
+								<div class="cardbox p-2">
+									<!-- cardbox heading -->
+									<div class="cardbox-heading">
+										<div class="media m-0 row">
+											<div class="d-flex m-auto col-2 p-0">
+												<a class="m-auto" href="#"><img class="rounded-circle" src="http://www.themashabrand.com/templates/bootsnipp/post/assets/img/users/4.jpg" alt="User"/></a>
+											</div>
+											<div class="media-body col-7 ml-1 ml-md-0">
+												<p class="font-weight-bold m-0">Benjamin Robinson</p>
+												<small>Rating:<span> * * * *</span><span> (4.3)</span></small>
+											</div>
+											<div class="btn workBook-btn col-3 col-md-3 m-auto p-2">Hire</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div class="row my-1">
+							<div class="col-12 p-0">
+								<div class="cardbox p-2">
+									<!-- cardbox heading -->
+									<div class="cardbox-heading">
+										<div class="media m-0 row">
+											<div class="d-flex m-auto col-2 p-0">
+												<a class="m-auto" href="#"><img class="rounded-circle" src="http://www.themashabrand.com/templates/bootsnipp/post/assets/img/users/4.jpg" alt="User"/></a>
+											</div>
+											<div class="media-body col-7 ml-1 ml-md-0">
+												<p class="font-weight-bold m-0">Benjamin Robinson</p>
+												<small>Rating:<span> * * * *</span><span> (4.3)</span></small>
+											</div>
+											<div class="btn workBook-btn col-3 col-md-3 m-auto p-2">Hire</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- Modal Form End-->
+
+		<!-- ***** Profile Area ***** -->
+		<div class="container">
+			<div class="wrap-profile">
+				<div class="row justify-content-center">
+					<div class="user-details">
+						<div class="user-image">
+							<img src="https://image.flaticon.com/icons/png/512/236/236832.png" alt="User Name" title="User Name" class="img-circle" />
+						</div>
+						<div class="user-info-block">
+							<div class="user-heading">
+								<h4>User Name</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="user-info-form">
+						<!-- Tabs -->
+						<div class="nav nav-tabs nav-justified" id="heroTab" role="tablist">
+							<a class="nav-item nav-link active" id="nav-accountInfo-tab" data-toggle="tab" href="#nav-accountInfo" role="tab" aria-controls="nav-accountInfo" aria-selected="true"
+								><i class="fas fa-user-circle pr-2"></i>Account Info</a
+							>
+							<a class="nav-item nav-link" id="nav-userPost-tab" data-toggle="tab" href="#nav-userPost" role="tab" aria-controls="nav-userPost" aria-selected="false"
+								><i class="fas fa-pen-square pr-2"></i>Posts</a
+							>
+						</div>
+						<!-- Tabs Content -->
+						<div class="tab-content" id="nav-tabContent">
+							<!-- Account Info tab -->
+							<div class="tab-pane show active" id="nav-accountInfo" role="tabpanel" aria-labelledby="nav-accountInfo-tab">
+								<form>
+									<div class="form-group row">
+										<label for="firstName" class="col-lg-2 col-md-3 col-form-label text-md-right">First Name</label>
+										<div class="col-lg-10 col-md-9">
+											<input id="firstName" name="firstName" placeholder="First Name" class="form-control here" required type="text" />
+										</div>
+									</div>
+									<div class="form-group row">
+										<label for="lastName" class="col-lg-2 col-md-3 col-form-label text-md-right">Last Name</label>
+										<div class="col-lg-10 col-md-9">
+											<input id="lastName" name="lastName" placeholder="Last Name" class="form-control here" required type="text" />
+										</div>
+									</div>
+									<div class="form-group row">
+										<label for="address" class="col-lg-2 col-md-3 col-form-label text-md-right">Address</label>
+										<div class="col-lg-10  col-md-9">
+											<textarea id="address" name="address" cols="40" rows="4" placeholder="Your Address Here" class="form-control" required></textarea>
+										</div>
+									</div>
+									<div class="form-group row">
+										<label for="mobileNo" class="col-lg-2 col-md-3 col-form-label text-md-right">Mobile Number</label>
+										<div class="col-lg-10 col-md-9">
+											<input
+												id="mobileNo"
+												name="mobileNo"
+												placeholder="Mobile Number"
+												class="form-control here"
+												type="tel"
+												pattern="^[0-9]{11}$"
+												title="You can only enter numbers, 11 characters are accepted."
+												required
+											/>
+										</div>
+									</div>
+									<div class="form-group row">
+										<label for="email" class="col-lg-2 col-md-3 col-form-label text-md-right">Email</label>
+										<div class="col-lg-10 col-md-9">
+											<input id="email" name="email" placeholder="Email" class="form-control here" required type="email" />
+										</div>
+									</div>
+									<div class="form-group row">
+										<label for="oldPass" class="col-lg-2 col-md-3 col-form-label text-md-right">Current Password</label>
+										<div class="col-lg-10 col-md-9">
+											<input id="oldPass" name="oldPass" placeholder="Current Password" class="form-control here" type="password" required />
+										</div>
+									</div>
+									<div class="form-group row">
+										<label for="newPass" class="col-lg-2 col-md-3 col-form-label text-md-right">New Password</label>
+										<div class="col-lg-10 col-md-9">
+											<input id="newPass" name="newPass" placeholder="New Password" class="form-control here" type="password" required />
+										</div>
+									</div>
+									<div class="form-group row">
+										<div class="offset-lg-2 offset-md-3 col-lg-10 col-md-9">
+											<button name="submit" type="submit" class="btn btn-shadow">
+												Update Profile
+											</button>
+										</div>
+									</div>
+								</form>
+							</div>
+
+							<!-- User Post tab -->
+							<div class="tab-pane" id="nav-userPost" role="tabpanel" aria-labelledby="nav-userPost-tab">
+								<div class="row">
+									<div class="col-12">
+										<div class="cardbox">
+											<!-- cardbox heading -->
+											<div class="cardbox-heading">
+												<div class="media m-0">
+													<div class="d-flex mr-3">
+														<a href=""><img class="rounded-circle" src="http://www.themashabrand.com/templates/bootsnipp/post/assets/img/users/4.jpg" alt="User"/></a>
+													</div>
+													<div class="media-body">
+														<p class="font-weight-bold m-0">Benjamin Robinson</p>
+														<small
+															><span><i class="far fa-clock pr-1"></i>10 hours ago</span></small
+														>
+													</div>
+												</div>
+											</div>
+											<!-- cardbox item -->
+											<div class="cardbox-item">
+												<p>Work Type:</p>
+												<p>Work Area:</p>
+												<p>Work Duration:</p>
+												<p>Payment:</p>
+											</div>
+											<!-- cardbox base -->
+											<div class="cardbox-base row justify-content-center">
+												<div class="btn workBook-btn col-md-2 mx-3 mx-md-1 mb-2 mb-md-0 p-2 cancel-btn">Cancel</div>
+												<div class="btn workBook-btn col-md-2 mx-3 mx-md-1 mb-2 mb-md-0 p-2 candidate-btn" data-toggle="modal" data-target="#modalCandidate">Candidates</div>
+												<div class="btn workBook-btn col-md-2 mx-3 mx-md-1 p-2">Completed</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- ***** Profile Area End ***** -->
+
+		<!-- Footer Area Start -->
+		<footer class="page-footer mt-5">
+			<!-- Footer Top -->
+			<div class="footer-top">
+				<div class="container">
+					<!-- Grid row-->
+					<div class="row py-2 d-flex align-items-center">
+						<!-- Grid column -->
+						<div class="col-md-6 col-lg-5 text-center text-md-left mb-3 mb-md-0">
+							<h6 class="mb-0 text-white">Get connected with us on social networks! Thank You ~ Thriving IV ;)</h6>
+						</div>
+						<!-- Grid column -->
+
+						<!-- Grid column -->
+						<div class="col-md-6 col-lg-7 text-center text-md-right">
+							<!-- Facebook -->
+							<a class="fb-ic">
+								<i class="fab fa-facebook-f mr-4"> </i>
+							</a>
+							<!-- Twitter -->
+							<a class="tw-ic">
+								<i class="fab fa-twitter mr-4"> </i>
+							</a>
+							<!-- Google +-->
+							<a class="gplus-ic">
+								<i class="fab fa-google-plus-g mr-4"> </i>
+							</a>
+							<!--Instagram-->
+							<a class="ins-ic">
+								<i class="fab fa-instagram"> </i>
+							</a>
+						</div>
+						<!-- Grid column -->
+					</div>
+					<!-- Grid row-->
+				</div>
+			</div>
+			<!-- Footer Top -->
+
+			<!-- Footer Links -->
+			<div class="footer-links container text-center mt-4">
+				<!-- Grid row -->
+				<div class="row text-center" id="about-us">
+					<!-- Grid column -->
+					<div class="col-12 mx-auto mb-3">
+						<!-- Content -->
+						<h6 class="text-uppercase font-weight-bold text-white">ABOUT SerVale</h6>
+						<hr class="mb-4 mt-0 mx-auto" style="width: 60px;" />
+						<p>SerValey is an online service platform that can help you find part-time workers or works next to your doorstep.</p>
+					</div>
+					<!-- Grid column -->
+				</div>
+				<!-- Grid row -->
+
+				<!-- Grid row -->
+				<div class="row">
+					<!-- Grid column -->
+					<div class="col-xl-12 mx-auto mb-3 text-center">
+						<!-- Links -->
+						<h6 class="text-uppercase font-weight-bold text-white">Useful links</h6>
+						<hr class="mb-4 mt-0 mx-auto" style="width: 60px;" />
+						<p class="d-sm-inline-block mx-3">
+							<a href="category-driver.html">Driver</a>
+						</p>
+						<p class="d-sm-inline-block mx-3">
+							<a href="category-gardener.html">Gardener</a>
+						</p>
+						<p class="d-sm-inline-block mx-3">
+							<a href="category-electrician.html">Electrician</a>
+						</p>
+						<p class="d-sm-inline-block mx-3">
+							<a href="category-labour.html">Labour</a>
+						</p>
+						<p class="d-sm-inline-block mx-3">
+							<a href="category-volunteer.html">Volunteer</a>
+						</p>
+						<p class="d-sm-inline-block mx-3">
+							<a href="category-others.html">Others</a>
+						</p>
+					</div>
+					<!-- Grid column -->
+				</div>
+				<!-- Grid row -->
+
+				<!-- Grid row -->
+				<div class="row" id="contact-us">
+					<!-- Grid column -->
+					<div class="col-xl-8 mx-auto mb-4">
+						<!-- Links -->
+						<h6 class="text-uppercase font-weight-bold text-center text-white">Contact</h6>
+						<hr class="mb-4 mt-0 mx-auto" style="width: 60px;" />
+						<div class="row">
+							<div class="col-sm-6">
+								<p><i class="fas fa-home pr-2"></i> jamgora, Ashuliy, Zirabo, savar, Dhaka</p>
+								<p><i class="fas fa-envelope pr-2"></i> khandaker15-4204@diu.edu.bd</p>
+								<p><i class="fas fa-phone pr-2"></i> + 880 1740-792690</p>
+							</div>
+							<div class="col-sm-6">
+								<p><i class="fas fa-home pr-2"></i> Daffodil Smart City, Khagan, Ashuliy, Dhaka</p>
+								<p><i class="fas fa-envelope pr-2"></i> Thriving_IV_@diu.edu</p>
+								<p><i class="fas fa-phone pr-2"></i> + 880 1740-792690</p>
+							</div>
+						</div>
+					</div>
+					<!-- Grid column -->
+				</div>
+				<!-- Grid row -->
+			</div>
+			<!-- Footer Links -->
+
+			<!-- Copyright -->
+			<div class="footer-copyright text-center py-1">
+				<small>© 2023 COPYRIGHT: <a href="index.html"> SERVALE.COM</a></small>
+			</div>
+			<!-- Copyright -->
+		</footer>
+		<!-- Footer Area End -->
+
+		<!-- jQuery-2.2.4 js -->
+		<script src="js/jquery/jquery-2.2.4.min.js"></script>
+		<!-- Popper js -->
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+			integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+			crossorigin="anonymous"
+		></script>
+		<!-- Bootstrap-4 js -->
+		<script
+			src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+			integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+			crossorigin="anonymous"
+		></script>
+		<!-- All Plugins js -->
+		<script src="js/others/plugins.js"></script>
+		<!-- Active JS -->
+		<script src="js/active.js"></script>
+	</body>
+</html>
